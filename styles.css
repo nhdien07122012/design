@@ -143,34 +143,16 @@ body {
   }
 }
 
+
+/* ...existing code... */
 @media (max-width: 600px) {
-  .card-list {
+  #card-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    overflow-x: hidden;
   }
   .card {
-    width: 90vw;
-    margin: 10px 0;
-  }
-  .card-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .next, .prev {
-    font-size: 2rem;
-    padding: 10px 20px;
-  }
-  .card-title, .card-desc {
-    font-size: 1.1rem;
-    text-align: center;
-  }
-  #dots {
-    margin-top: 10px;
-  }
-  .dot {
-    width: 14px;
-    height: 14px;
+    flex: 1 0 100%;
+    max-width: 100%;
   }
 }
+/* ...existing code... */

@@ -1,0 +1,12 @@
+/* ...existing code... */
+@media (max-width: 600px) {
+  #card-list {
+    display: flex;
+    overflow-x: hidden;
+  }
+  .card {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+/* ...existing code... */
